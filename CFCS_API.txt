@@ -1,0 +1,29 @@
+operations                                                                    description
+compute_partial_correlations(df)                                     function to compute partial correlations between each climate risk feature and
+																	 futures price feature within each group of the input dataset.
+																	 Output will be a combined correlation table in DataFrame type.
+																	 
+cfcs(df)                                                             compute Climate-Futures Correlation Score (CFCS) from a correlation table
+
+Example Usage:
+
+df = pd.read_csv('./corn_climate_risk_futures_daily_master.csv')
+## master dataset from Helios
+
+correlation_table = compute_partial_correlations(df)
+## compute correlation table 
+
+cfcs_scoreboard = cfcs(correlation_table)
+## compute final cfcs score for competition
+
+Output: 
+0.0% of all correlations are significant
+Average significant correlation is 0.0
+highest absolute correlation found is 0.43
+final CFCS score is 12.89
+{'cfcs_score': 12.8874,
+ 'avg_sig_score': 0.0,
+ 'max_corr_score': 42.958,
+ 'sig_count_score': 0.0}
+
+
