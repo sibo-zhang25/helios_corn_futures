@@ -3,4 +3,10 @@ feature engineering codebase for 2025 Kaggle Helios Corn Futures Competition
 
 - This repo is a collection of .ipynb notebooks and .py modules built for the 2025
   Helios Corn Futures feature engineering competition on Kaggle
+  
+- Brief outline of the work:
+  0th stage: data scraping from two databases: Geonames and Openweather API
+  1st stage: EDA for all datasets; data cleaning
+  2nd stage: baseline feature engineering
+  
 
