@@ -8,5 +8,8 @@ feature engineering codebase for 2025 Kaggle Helios Corn Futures Competition
   0th stage: data scraping from two databases: Geonames and Openweather API
   1st stage: EDA for all datasets; data cleaning
   2nd stage: baseline feature engineering
+  3rd stage: non-linear and other advanced feature engineering
+  4th stage: auto-generating composite features and conduct feature selection via batch-processing
+  5th stage: recalibrate feature selection criterias and submit final solution notebook to Helios on Kaggle
   
 
