@@ -5,7 +5,7 @@ feature engineering codebase for 2025 Kaggle Helios Corn Futures Competition
   Helios Corn Futures feature engineering competition on Kaggle
   
 - Brief outline of the work:
-  0th stage: data scraping from two databases: Geonames and Openweather API\n
+  0th stage: data scraping from two databases: Geonames and Openweather API \n 
   1st stage: EDA for all datasets; data cleaning
   2nd stage: baseline feature engineering
   3rd stage: non-linear and other advanced feature engineering
